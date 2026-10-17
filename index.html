@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkillProof – Prove your skills. Earn from them.</title>
+<meta name="description" content="SkillProof is a prototype platform where ITI, polytechnic and vocational learners prove practical skills and find local work.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap bar">
+    <a href="#" class="logo" data-act="home" aria-label="SkillProof home"><span class="mark" aria-hidden="true">✓</span>SkillProof</a>
+    <button id="menuBtn" class="icon-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+    <nav id="nav" aria-label="Main">
+      <a href="#how" data-i18n="nav_how">How it works</a>
+      <a href="#cats" data-i18n="nav_skills">Skills</a>
+      <a href="#featured" data-i18n="nav_jobs">Opportunities</a>
+      <a href="#impact" data-i18n="nav_impact">Impact</a>
+    </nav>
+    <select id="lang" aria-label="Language">
+      <option value="en">English</option><option value="ta">தமிழ்</option><option value="hi">हिन्दी</option>
+    </select>
+    <span id="authArea" class="auth-area"></span>
+  </div>
+</header>
+<div class="banner">Prototype demo — sample data only. No real jobs, payments or AI assessments.</div>
+
+<main id="main">
+<div id="landing">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="pill">Shikshit &amp; Kaushal Bharat</p>
+        <h1 data-i18n="hero_h">Your Skills Deserve More Than a Certificate.</h1>
+        <p class="lead" data-i18n="hero_p">Prove what you can do, build your work profile, and connect with real earning opportunities near you.</p>
+        <div class="row">
+          <button class="btn primary lg" data-auth="register-learner" data-i18n="cta_learn">Start Proving Your Skills</button>
+          <button class="btn ghost lg" data-auth="register-employer" data-i18n="cta_hire">Hire Skilled Talent</button>
+        </div>
+        <p class="tag">Don't just learn a skill. Use it, prove it, and earn from it.</p>
+        <ul class="stats" aria-label="Illustrative demo numbers">
+          <li><b data-count="12000">0</b><span>learners (demo)</span></li>
+          <li><b data-count="850">0</b><span>local employers (demo)</span></li>
+          <li><b data-count="3400">0</b><span>skills verified (demo)</span></li>
+        </ul>
+      </div>
+      <div class="preview" aria-label="Sample profile preview (demo)">
+        <div class="card pv-main">
+          <div class="who"><span class="avatar">AR</span><div><b>Ananya R.</b><small>Coimbatore · ITI Computer</small></div><span class="badge ok">✓ Verified</span></div>
+          <div class="chips"><span class="chip ok">Web Development</span><span class="chip ok">Graphic Design</span><span class="chip">Tailoring (in progress)</span></div>
+          <div class="task"><small>Completed task</small><b>Responsive Personal Portfolio</b><div class="bar-p"><i style="width:100%"></i></div></div>
+        </div>
+        <div class="card pv-job"><small>Sample local job</small><b>Poster design · Pollachi</b><span class="money">₹2,500 · 3 days</span></div>
+        <div class="flow" aria-label="Journey">Learn → Practice → Prove → Verify → Find Work → Earn</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap sec"><h2>The problem: training doesn't always lead to work</h2>
+    <div class="grid3">
+      <div class="card"><h3>Certificates say little</h3><p>Employers can't see what a learner can actually do on the job.</p></div>
+      <div class="card"><h3>Practice goes unrecorded</h3><p>Good hands-on work is rarely documented or shared.</p></div>
+      <div class="card"><h3>Local work is hard to find</h3><p>Small businesses and learners struggle to find each other nearby.</p></div>
+    </div>
+  </section>
+
+  <section id="how" class="band"><div class="wrap sec"><h2>How SkillProof works</h2><div id="steps" class="grid4"></div></div></section>
+  <section id="cats" class="wrap sec"><h2>Popular skill categories</h2><div id="catGrid" class="cat-grid"></div></section>
+  <section id="featured" class="band"><div class="wrap sec"><h2>Featured micro-jobs &amp; apprenticeships <small class="tagline">Sample listings</small></h2><div id="featGrid" class="grid3"></div></div></section>
+
+  <section class="wrap sec"><div class="grid2">
+    <div class="card"><h3>For learners</h3><ul class="ticks"><li>Turn practice into a verified portfolio</li><li>Find work matched to your proven skills</li><li>Instructions in English, Tamil and Hindi</li></ul></div>
+    <div class="card"><h3>For employers</h3><ul class="ticks"><li>See real work samples, not just certificates</li><li>Post local micro-jobs in minutes</li><li>Shortlist candidates you can trust</li></ul></div>
+  </div></section>
+
+  <section class="band"><div class="wrap sec"><h2>What people say <small class="tagline">Sample demo content</small></h2>
+    <div class="grid3">
+      <blockquote class="card">"The wiring challenge showed me what I was missing in safety."<footer>— Sample learner, Madurai</footer></blockquote>
+      <blockquote class="card">"A portfolio with photos is easier to trust than a marksheet."<footer>— Sample workshop owner, Tiruppur</footer></blockquote>
+      <blockquote class="card">"I posted a poster job and shortlisted three learners."<footer>— Sample print shop, Salem</footer></blockquote>
+    </div></div></section>
+
+  <section id="impact" class="wrap sec"><h2>Impact goals</h2>
+    <p class="lead">SkillProof aims to narrow the gap between skill training and employment. These are goals, not proven results.</p>
+    <ul class="ticks cols"><li>Improve practical skill verification</li><li>Expand access to micro-jobs and apprenticeships</li><li>Help employers identify suitable candidates</li><li>Encourage evidence-based portfolios</li><li>Improve earning access for underserved youth</li></ul>
+  </section>
+
+  <section class="cta"><div class="wrap"><h2>Ready to show what you can do?</h2><button class="btn primary lg" data-auth="demo-learner">Try the learner demo</button> <button class="btn ghost-w lg" data-auth="demo-employer">Try the employer demo</button></div></section>
+</div>
+
+<div id="app" hidden></div>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <b>SkillProof</b> — prototype for Shikshit &amp; Kaushal Bharat.
+  <span>Contact: hello@skillproof.example · +91 00000 00000 (placeholders)</span>
+</div></footer>
+
+<dialog id="modal" aria-label="Dialog"></dialog>
+<div id="toasts" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
